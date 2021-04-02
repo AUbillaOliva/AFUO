@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+//* COLORS 🎨 *\\
+$color-accent: #364def;
+
+//* TEXT COLORS 📖
+$button-text-color-light: white;
+$button-text-color-dark: black;
+$title-color-light: white;
+$text-color-light: #f3f3f3;
+$title-color-dark: black;
+$text-color-dark: #333333;
+
+//* DIMENS 📏
+    //* TEXT SIZES
+    $header-one-size: 93px;
+    $header-two-size: 58px;
+    $header-three-size: 46px;
+    $header-four-size: 33px;
+    $header-five-size: 23px;
+    $header-six-size: 19px;
+    $subtitle-one-size: 15px;
+    $subtitle-two-size: 13px;
+    $body-one-size: 16px;
+    $body-two-size: 14px;
+    $button-text-size: 14px;
+    $caption-text-size: 12px;
+    $overline-text-size: 10px;
+
+    //* LETTER SPACINGS
+    $header-one-letter-spacing: -1.5px;
+    $header-two-letter-spacing: -0.5px;
+    $header-three-letter-spacing: 0px;
+    $header-four-letter-spacing: 0.25px;
+    $header-five-letter-spacing: 0px;
+    $header-six-letter-spacing: 0.15px;
+    $subtitle-one-letter-spacing: 0.15px;
+    $subtitle-two-letter-spacing: 0.1px;
+    $body-one-letter-spacing: 0.5px;
+    $body-two-letter-spacing: 0.25px;
+    $button-letter-spacing: 1.25px;
+    $caption-letter-spacing: 0.4px;
+    $overline-letter-spacing: 1.5px;
+
+    //* FONT WEIGHT
+    $header-one-weight: lighter;
+    $header-two-weight: lighter;
+    $header-three-weight: normal;
+    $header-four-weight: normal;
+    $header-five-weight: normal;
+    $header-six-weight: medium;
+    $subtitle-one-weight: normal;
+    $subtitle-two-weight: medium;
+    $body-one-weigth: normal;
+    $body-two-weigth: normal;
+    $button-weight: medium;
+    $caption-weight: normal;
+    $overline-weight: normal;
+
+//* ELEVATION 🦺 *\\
+$navbar-elevated: 0 5px 6px rgba(0, 0, 0, 0.4);
+$button-idle: 0px 4px 5px rgba(0, 0, 0, 0.3);
+$button-pressed: 0px 3px 4px rgba(0, 0, 0, 0.3);
+$button-elevated: 0px 5px 6px rgba(0, 0, 0, 0.4);
+$card-idle: 0 3px 5px rgba(0, 0, 0, 0.2);
+$card-elevated: 0px 4px 6px rgba(0, 0, 0, 0.4);
+
+//* THEMES 🎨
+    //* LIGHT THEME 🌞
+    $light-background-color: #ffffff;
+    $light-surface-color: #ffffff;
+    $light-error-color: #b00020;
+    $light-primary-color: #ffffff;
+    $light-text-color: #000000;
+    $light-button-text-color: #ffffff;
+    $light-color-accent: $color-accent;
+
+    //* DARK THEME 🌜
+    $dark-background-color: #121212;
+    $dark-surface-color: #121212;
+    $dark-error-color: #cf6679;
+    $dark-primary-color: #000000;
+    $dark-text-color: #ffffff;
+    $dark-button-text-color: #ffffff;
+    $dark-color-accent: $color-accent;

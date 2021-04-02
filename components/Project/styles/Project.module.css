@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.carouselItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+.carouselItem .containerFluid {
+  margin: auto 10%;
+}
+
+.carouselItem .containerFluid .leftContainer {
+  margin: auto 0;
+}
+
+.carouselItem .containerFluid .leftContainer .projectTagLink {
+  text-decoration: none;
+}
+
+.carouselItem .containerFluid .leftContainer .projectTitle {
+  font-size: 23px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  font-family: "Poppins";
+}
+
+.carouselItem .containerFluid .leftContainer .projectDes {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
+.carouselItem .containerFluid .rightContainer {
+  text-align: center;
+}
+
+.carouselItem .containerFluid .rightContainer .projectImage {
+  padding: 5% 0;
+  height: 300px;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Project.module.css.map */

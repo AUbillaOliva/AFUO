@@ -1,0 +1,46 @@
+{
+  "name": "afuo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@types/styled-components": "^5.1.7",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "i18next-icu": "^2.0.0",
+    "intl-messageformat": "^9.4.9",
+    "next": "^10.0.7",
+    "next-i18next": "^7.0.1",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.5.0",
+    "react-dom": "17.0.1",
+    "react-intl": "^5.12.5",
+    "react-redux": "^7.2.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "resolve-url-loader": "^3.1.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/react-redux": "^7.1.16",
+    "@types/redux-persist": "^4.3.1",
+    "jquery": "^3.5.1",
+    "redux-devtools": "^3.7.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "tether": "^1.4.7",
+    "typescript": "^4.1.5"
+  },
+  "proxy": "http://localhost:5000/api"
+}

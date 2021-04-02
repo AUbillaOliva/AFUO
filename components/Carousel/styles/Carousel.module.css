@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.carousel {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+}
+
+.carousel .carouselControls {
+  width: 100%;
+}
+
+.carousel .carouselControls .carouselControlPrev {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  opacity: 1;
+  -webkit-transition: -webkit-box-shadow 300ms;
+  transition: -webkit-box-shadow 300ms;
+  transition: box-shadow 300ms;
+  transition: box-shadow 300ms, -webkit-box-shadow 300ms;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel .carouselControls .carouselControlPrev:hover {
+  -webkit-box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
+  -webkit-transition: -webkit-box-shadow 300ms;
+  transition: -webkit-box-shadow 300ms;
+  transition: box-shadow 300ms;
+  transition: box-shadow 300ms, -webkit-box-shadow 300ms;
+}
+
+.carousel .carouselControls .carouselControlPrev:active {
+  -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+  -webkit-transition: -webkit-box-shadow 300ms;
+  transition: -webkit-box-shadow 300ms;
+  transition: box-shadow 300ms;
+  transition: box-shadow 300ms, -webkit-box-shadow 300ms;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel .carouselControls .carouselControlPrev {
+    left: 10px;
+  }
+}
+
+.carousel .carouselControls .carouselControlPrev .carouselControlPrevIcon {
+  width: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px auto;
+}
+
+.carousel .carouselControls .carouselControlNext {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  -webkit-box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+  opacity: 1;
+  -webkit-transition: -webkit-box-shadow 300ms;
+  transition: -webkit-box-shadow 300ms;
+  transition: box-shadow 300ms;
+  transition: box-shadow 300ms, -webkit-box-shadow 300ms;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel .carouselControls .carouselControlNext:hover {
+  -webkit-box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
+}
+
+.carousel .carouselControls .carouselControlNext:active {
+  -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 992px) {
+  .carousel .carouselControls .carouselControlNext {
+    right: 10px;
+  }
+}
+
+.carousel .carouselControls .carouselControlNext .carouselControlNextIcon {
+  width: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px auto;
+}
+/*# sourceMappingURL=Carousel.module.css.map */

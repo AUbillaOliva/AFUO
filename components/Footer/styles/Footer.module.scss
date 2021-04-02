@@ -1,0 +1,42 @@
+@import '../../../styles/global_vars.scss';
+
+.pageFooter {
+  padding: 50px 0;
+  font-family: "Roboto", serif;
+
+  .containerFluid {
+    margin: auto 10%;
+
+    .footerLink {
+      padding: 0;
+      font-size: $button-text-size;
+
+      .svg-inline--fa {
+        height: 24px;
+        width: 24px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .sectionTitle {
+      font-size: $subtitle-one-size;
+    }
+  }
+
+  .footerEnd {
+    margin: 0;
+
+    p {
+      margin: 0;
+      font-size: small;
+
+      svg {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+}

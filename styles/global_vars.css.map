@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,0RAAI",
+    "sources": [
+        "global_vars.scss"
+    ],
+    "names": [],
+    "file": "global_vars.css"
+}

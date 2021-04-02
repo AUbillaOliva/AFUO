@@ -1,0 +1,61 @@
+@import "../../../styles/global_vars.scss";
+
+.aboutSection {
+  padding: 5% 0;
+  position: relative;
+
+  .containerFluid {
+    margin: auto 10%;
+
+    .aboutSectionTitle {
+      font-family: "Poppins";
+      font-size: $header-four-size;
+      font-weight: $header-four-weight;
+      letter-spacing: $header-four-letter-spacing;
+    }
+
+    .aboutBodyContainer {
+      height: auto;
+
+      .row {
+        height: auto;
+
+        .leftContainer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .aboutImage {
+            align-self: center;
+            margin: 10%;
+
+            @media screen and (max-width: 992px) {
+              height: 100px;
+              width: 100px;
+            }
+          }
+        }
+
+        .rightContainer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          padding: 5% 0;
+
+          .aboutDescription {
+            text-align: left;
+            font-family: "Roboto", serif;
+            font-size: $header-five-size;
+            font-weight: $header-five-weight;
+            letter-spacing: $header-five-letter-spacing;
+
+            @media screen and (max-width: 992px) {
+              text-align: justify;
+            }
+          }
+        }
+      }
+    }
+  }
+}

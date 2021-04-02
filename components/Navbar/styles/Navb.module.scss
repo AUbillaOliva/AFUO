@@ -1,0 +1,132 @@
+@import "../../../styles/global_vars.scss";
+
+.scrolled {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  transition: box-shadow 50ms;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.4);
+  padding: 0;
+
+  .navbarBrand {
+    position: relative;
+    left: 30px;
+    font-family: "Poppins";
+    font-size: $header-five-size;
+    font-weight: $header-five-weight;
+    letter-spacing: $header-five-letter-spacing;
+    text-decoration: none;
+    animation: fadeIn 1s;
+  }
+
+  .navList {
+    width: 100%;
+    margin-left: 30px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    left: 25px;
+    position: relative;
+
+    @media screen and (max-width: 992px) {
+      margin: 0;
+      left: 0;
+      padding: 0;
+      margin-left: 0;
+    }
+
+    .navLink {
+      margin: 10px 5px;
+      display: inline-block;
+      font-family: "Roboto";
+      font-weight: 500;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}
+
+.notScrolled {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: box-shadow 50ms;
+  position: relative;
+
+  .navbarBrand {
+    text-align: center;
+    margin: 0;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .navList {
+    width: 100%;
+    margin-left: 30px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    left: 25px;
+    position: relative;
+
+    @media screen and (max-width: 992px) {
+      margin: 0;
+      left: 0;
+      padding: 0;
+      margin-left: 0;
+    }
+
+    .navLink {
+      margin: 10px 5px;
+      display: inline-block;
+      font-family: "Roboto";
+      font-weight: 500;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+
+  .switch {
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .scrolled {
+    .navbarBrand {
+      display: none;
+    }
+  }
+  .notScrolled {
+    .navbarBrand {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .navList {
+    margin: 5px 0;
+    .navLink {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+.active {
+  color: red;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

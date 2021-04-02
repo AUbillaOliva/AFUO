@@ -1,0 +1,53 @@
+@import "../../../styles/global_vars.scss";
+
+.carouselItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s;
+
+  .containerFluid {
+    margin: auto 10%;
+
+    .leftContainer {
+      margin: auto 0;
+
+      .projectTagLink {
+        text-decoration: none;
+      }
+
+      .projectTitle {
+        font-size: $header-five-size;
+        font-weight: $header-five-weight;
+        letter-spacing: $header-five-letter-spacing;
+        font-family: "Poppins";
+      }
+
+      .projectDes {
+        font-family: "Roboto", serif;
+        font-size: $body-one-size;
+        font-weight: $body-one-weigth;
+        letter-spacing: $body-one-letter-spacing;
+      }
+    }
+
+    .rightContainer {
+      text-align: center;
+
+      .projectImage {
+        padding: 5% 0;
+        height: 300px;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "button.info": "Más Información",
+  "header.header-subtitle": "de códigos y proyectos...",
+  "navbar.navbar-link": [
+    {
+      "title": "Inicio",
+      "route": "/"
+    },
+    {
+      "title": "Software",
+      "route": "/software"
+    },
+    {
+      "title": "Proyectos",
+      "route": "/projects"
+    },
+    {
+      "title": "Articulos",
+      "route": "/articles"
+    },
+    {
+      "title": "Contacto",
+      "route": "/contact"
+    }
+  ],
+  "footer-links": [
+    "MANTENTE EN CONTACTO",
+    "APOYAME CON UN CAFÉ",
+    "MÁS INFORMACIÓN"
+  ],
+  "landing.landing-title": "Hola soy Álvaro, ingeniero civil en computación ",
+  "landing.landing-subtitle": "estudiante a través del autoaprendizaje, investigación y desarrollo.",
+  "projects.projects-section-title": "Projectos populares",
+  "repos.repos-section-title": "Repositorios de Github",
+  "about.about-section-title": "Quién soy",
+  "about.about-description": "Hola! ✌ soy un estudiante universitario de la universidad tecnológica metropolitana en Santiago de Chile. Actualmete estoy enfocado en el desarrollo web con herramientas como react, nodejs, mongodb y más. También tengo experiencia en desarrollo de aplicaciones móviles con Android Studio 🤖. Mi meta es desarrollar productos que sean de gran utilidad para la comunidad."
+}

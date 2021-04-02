@@ -1,0 +1,29 @@
+@import "../../../styles/global_vars.scss";
+
+.reposSection {
+  padding: 5% 0;
+
+  .containerFluid {
+		margin: auto 10%;
+
+    .repoSectionTitle {
+      font-family: "Poppins";
+      font-size: $header-four-size;
+      font-weight: $header-four-weight;
+      letter-spacing: $header-four-letter-spacing;
+    }
+
+    .repoListContainer {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+
+      .repoItem {
+        margin-bottom: 15px;
+        margin: 0 10px 10px 5px;
+        flex: 1 0 21%;
+      }
+    }
+  }
+}

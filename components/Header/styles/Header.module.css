@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.appHeader {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.appHeader .appHeaderContainer {
+  width: 265px;
+  text-align: center;
+  margin: auto;
+}
+
+.appHeader .appHeaderContainer .appTitle {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  font-size: 33px;
+  font-weight: normal;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.appHeader .appHeaderContainer .appTitle:hover {
+  text-decoration: none;
+}
+
+.appHeader .appHeaderContainer .appSubtitle {
+  margin: 0;
+  font-family: "Poppins";
+  font-size: 19px;
+  font-weight: medium;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=Header.module.css.map */

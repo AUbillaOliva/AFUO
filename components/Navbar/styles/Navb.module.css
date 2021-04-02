@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.scrolled {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  -webkit-transition: -webkit-box-shadow 50ms;
+  transition: -webkit-box-shadow 50ms;
+  transition: box-shadow 50ms;
+  transition: box-shadow 50ms, -webkit-box-shadow 50ms;
+  -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 6px rgba(0, 0, 0, 0.4);
+  padding: 0;
+}
+
+.scrolled .navbarBrand {
+  position: relative;
+  left: 30px;
+  font-family: "Poppins";
+  font-size: 23px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  text-decoration: none;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+.scrolled .navList {
+  width: 100%;
+  margin-left: 30px;
+  padding: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 25px;
+  position: relative;
+}
+
+@media screen and (max-width: 992px) {
+  .scrolled .navList {
+    margin: 0;
+    left: 0;
+    padding: 0;
+    margin-left: 0;
+  }
+}
+
+.scrolled .navList .navLink {
+  margin: 10px 5px;
+  display: inline-block;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.notScrolled {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-transition: -webkit-box-shadow 50ms;
+  transition: -webkit-box-shadow 50ms;
+  transition: box-shadow 50ms;
+  transition: box-shadow 50ms, -webkit-box-shadow 50ms;
+  position: relative;
+}
+
+.notScrolled .navbarBrand {
+  text-align: center;
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.notScrolled .navList {
+  width: 100%;
+  margin-left: 30px;
+  padding: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 25px;
+  position: relative;
+}
+
+@media screen and (max-width: 992px) {
+  .notScrolled .navList {
+    margin: 0;
+    left: 0;
+    padding: 0;
+    margin-left: 0;
+  }
+}
+
+.notScrolled .navList .navLink {
+  margin: 10px 5px;
+  display: inline-block;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.notScrolled .switch {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .scrolled .navbarBrand {
+    display: none;
+  }
+  .notScrolled .navbarBrand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navList {
+    margin: 5px 0;
+  }
+  .navList .navLink {
+    width: 100%;
+    display: block;
+  }
+}
+
+.active {
+  color: red;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=Navb.module.css.map */

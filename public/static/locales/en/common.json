@@ -1,0 +1,33 @@
+{
+  "button.info": "More info",
+  "header.header-subtitle": "about codes and projects...",
+  "navbar.navbar-link": [
+    {
+      "title": "Home",
+      "route": "/"
+    },
+    {
+      "title": "Software",
+      "route": "/software"
+    },
+    {
+      "title": "Projects",
+      "route": "/projects"
+    },
+    {
+      "title": "Articles",
+      "route": "/articles"
+    },
+    {
+      "title": "Contact",
+      "route": "/contact"
+    }
+  ],
+  "footer-links": ["KEEP IN TOUCH", "SUPPORT WITH A COFFEE", "MORE INFO"],
+  "landing.landing-title": "Hi im Álvaro, a software engineer.",
+  "landing.landing-subtitle": "Student through self-learning, research, and development.",
+  "projects.projects-section-title": "Popular proyects",
+  "repos.repos-section-title": "Github repositories",
+  "about.about-section-title": "Who am I",
+  "about.about-description": "Hello! ✌ I am a university student of the metropolitan technological university in Santiago de Chile. Currently I am focused on web development with tools like react, nodejs, mongodb and more. I also have experience in mobile app development with Android Studio 🤖. My goal is to develop products that are very useful for the community."
+}

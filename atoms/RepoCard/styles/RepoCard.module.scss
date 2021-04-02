@@ -1,0 +1,38 @@
+@import '../../../styles/global_vars.scss';
+
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: $card-idle;
+  text-decoration: none;
+  transition: box-shadow 250ms;
+
+  &:hover {
+    text-decoration: none;
+    font-style: none;
+    box-shadow: $card-elevated;
+  }
+
+  .cardTitle {
+    font-family: "Poppins", serif;
+    font-size: $header-six-size;
+    font-weight: $header-six-weight;
+    letter-spacing: $header-six-letter-spacing;
+  }
+
+  .cardDescription {
+    font-family: "Roboto", serif;
+    font-size: $body-one-size;
+    font-weight: $body-one-weigth;
+    letter-spacing: $body-one-letter-spacing;
+  }
+
+  .repoLanguage {
+    font-size: $body-two-size;
+    font-weight: $body-two-weigth;
+    letter-spacing: $body-two-letter-spacing;
+    padding: 2px 3px;
+    border-radius: 3px;
+  }
+}

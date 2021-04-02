@@ -1,0 +1,82 @@
+@import '../../../styles/global_vars.scss';
+
+.carousel {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+
+  .carouselControls {
+    width: 100%;
+
+    .carouselControlPrev {
+      background-color: white;
+      height: 40px;
+      width: 40px;
+      box-shadow: $button-idle;
+      border-radius: 100%;
+      opacity: 1;
+      transition: box-shadow 300ms;
+      position: absolute;
+      top: 50%;
+      left: 50px;
+      display: flex;
+
+      &:hover {
+        box-shadow: $button-elevated;
+        transition: box-shadow 300ms;
+      }
+
+      &:active {
+        box-shadow: $button-pressed;
+        transition: box-shadow 300ms;
+      }
+
+      @media screen and (max-width: 992px) {
+        left: 10px;
+      }
+
+      .carouselControlPrevIcon {
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+      }
+    }
+
+    .carouselControlNext {
+      background-color: white;
+      height: 40px;
+      width: 40px;
+      box-shadow: $button-idle;
+      border-radius: 100%;
+      opacity: 1;
+      transition: box-shadow 300ms;
+      position: absolute;
+      top: 50%;
+      right: 50px;
+      display: flex;
+
+      &:hover {
+        box-shadow: $button-elevated;
+      }
+
+      &:active {
+        box-shadow: $button-pressed;
+      }
+
+      @media screen and (max-width: 992px) {
+        right: 10px;
+      }
+
+      .carouselControlNextIcon {
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+      }
+    }
+  }
+}

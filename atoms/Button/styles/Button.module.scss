@@ -1,0 +1,38 @@
+@import '../../../styles/global_vars.scss';
+
+.btn {
+  display: inline-block;
+  border-radius: 30px;
+  box-shadow: $button-idle;
+  transition: box-shadow 0.5s;
+  width: auto;
+  padding: 5px;
+
+  &:hover {
+    box-shadow: $button-elevated;
+    transition: box-shadow 0.3s;
+  }
+
+  &:active {
+    box-shadow: $button-pressed;
+    transition: box-shadow 0.2s;
+  }
+
+  @media screen and (max-width: 992px) {
+    width: 100%;
+  }
+
+  .btnLink {
+    text-decoration: none;
+
+    .btnText {
+      text-align: center;
+      font-size: $button-text-size;
+      font-weight: $button-weight;
+      letter-spacing: $button-letter-spacing;
+      text-transform: uppercase;
+      padding: 5px 15px;
+      margin: auto 0;
+    }
+  }
+}

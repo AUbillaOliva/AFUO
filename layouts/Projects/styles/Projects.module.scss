@@ -1,0 +1,17 @@
+@import "../../../styles/global_vars.scss";
+
+.projectsSection {
+  display: inline-block;
+  padding: 5% 0;
+  width: 100%;
+  .containerFluid {
+    margin: auto 10%;
+
+    .projectsSectionTitle {
+      font-family: "Poppins", serif;
+      font-size: $header-four-size;
+      font-weight: $header-four-weight;
+      letter-spacing: $header-four-letter-spacing;
+    }
+  }
+}
